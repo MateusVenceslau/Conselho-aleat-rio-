@@ -1,51 +1,45 @@
-# Welcome to your Expo app 👋
+Bem-vindo ao seu aplicativo Expo 👋
+Este é um projeto Expo criado com o comando create-expo-app.
+Como começar
+1. Instalar as dependências
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Abra o terminal do VS Code, dentro da pasta do projeto, e execute:
+npm install
 
-## Get started
 
-1. Install dependencies
+Esse comando instala todas as bibliotecas necessárias para o funcionamento do projeto.
 
-   ```bash
-   npm install
-   ```
+2. Iniciar o aplicativo
 
-2. Start the app
+Depois, execute:
+npx expo start
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+Esse comando inicia o servidor de desenvolvimento do Expo.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Na tela do terminal, você encontrará opções para abrir o aplicativo em:
+- Development Build: versão de desenvolvimento do aplicativo.
+- Android Emulator: emulador de Android no computador.
+- iOS Simulator: simulador de iPhone.
+- Expo Go: aplicativo que permite testar projetos Expo no celular, com algumas limitações.
+Onde desenvolver?
+Você pode começar a desenvolver seu aplicativo editando os arquivos dentro da pasta:
+app
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
+Este projeto utiliza o sistema de navegação baseado em arquivos (File-based Routing).
+Criar um projeto novo
+Quando quiser começar do zero, execute:
 npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# Conselho-aleat-rio
+Esse comando moverá o projeto inicial para a pasta app-example e criará uma nova pasta app vazia.
+Saiba mais
+Para aprender a desenvolver com Expo, consulte a documentação oficial:
+- Documentação do Expo
+- Fundamentos e tutoriais
+- Tutorial para iniciantes
+Participe da comunidade
+Você também pode participar da comunidade de desenvolvedores:
+- Expo no GitHub
+- Discord do Expo
